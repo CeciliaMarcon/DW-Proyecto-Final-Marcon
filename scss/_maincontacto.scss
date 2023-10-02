@@ -1,0 +1,45 @@
+main {
+    .overcontacto{
+        overflow: hidden;
+    }
+    
+        .productosdestacados {
+            margin-top: 3rem;
+        }
+    
+
+    .contenedorcontacto {
+        padding: 0;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: center;
+
+        div {
+            .parrafoscontacto {
+
+                @media screen and (max-width: 600px) {
+                    text-align: center;
+                }
+            }
+        }
+
+        div {
+            .formucontacto {
+                width: 20rem;
+
+                @media screen and (max-width: 600px) {
+                    margin: 0 auto;
+                }
+
+                .botonformucontacto {
+                    width: 8rem;
+                    border-radius: 8px;
+                    border-color: black;
+                    background-color: #e2b68d;
+                }
+            }
+        }
+    }
+}
+

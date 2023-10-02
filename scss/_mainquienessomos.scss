@@ -1,0 +1,29 @@
+main {
+    .overquienessomos {
+        overflow: hidden;
+        .productosdestacados {
+            margin-top: 3rem;
+        }
+    }
+    div {
+        .contenedorparrafo {
+            width: 70vw;
+            height: auto;
+            text-align: justify;
+            margin: 0 auto;
+
+            div{
+                .subrayadotitulo{
+                    text-decoration: underline;
+                    font-style: italic;
+                }
+
+                .parrafoquienessomos{
+                    line-height: 2.5rem;
+                    margin-top: 2rem;
+                }
+
+            }
+        }
+    }
+}

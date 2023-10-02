@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background: #ffffff radial-gradient(circle, #ffffff 0%, #e3944a 100%);
+}
+
+header .buscarcreariniciar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+  padding: 1rem;
+}
+@media screen and (max-width: 600px) {
+  header .buscarcreariniciar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  header .buscarcreariniciar .esconderformumedia {
+    display: none;
+  }
+}
+header .buscarcreariniciar .esconderformumedia form .botonbuscar {
+  background-color: #e2b68d;
+  color: black;
+  border-color: #9c6028;
+}
+header .buscarcreariniciar div ul {
+  display: flex;
+  flex-direction: row;
+}
+header .buscarcreariniciar div ul .creariniciar {
+  display: inline-block;
+  margin-left: 1.5rem;
+}
+
+nav {
+  overflow: hidden;
+}
+nav div .marca {
+  border: solid;
+  color: black;
+  padding: 5px;
+}
+nav div .centrarmenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav div .centrarmenu .espaciadolinks, footer nav div .centrarmenu .espaciadolinks {
+  gap: 2rem;
+  font-size: larger;
+}
+@media screen and (max-width: 600px) {
+  nav div .centrarmenu .espaciadolinks, footer nav div .centrarmenu .espaciadolinks {
+    gap: 1rem;
+  }
+}
+
+footer {
+  padding: 2rem;
+}
+footer div div .formulariofooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div div .formulariofooter form .botonbuscar {
+  background-color: #e2b68d;
+  color: black;
+  border-color: #9c6028;
+}
+footer nav div .centrarmenu {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  footer nav div .centrarmenu .espaciadolinks {
+    gap: 1rem;
+  }
+}
+
+main .envioscuotasconsultas {
+  margin-top: 2rem;
+}
+main div .overproductosdestacados {
+  overflow: hidden;
+}
+main div .overproductosdestacados .productosdestacados {
+  margin-top: 3rem;
+}
+main div .filaproductosprincipal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  main div .filaproductosprincipal .tarjetadeproducto {
+    margin-bottom: 1rem;
+  }
+}
+main div .filaproductosprincipal .tarjetadeproducto div .botondecompra {
+  border-radius: 8px;
+  border-color: black;
+  background-color: #e2b68d;
+}
+main div .filaproductosprincipal .vertodos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+main .overproductos {
+  overflow: hidden;
+}
+main .overproductos .productosdestacados {
+  margin-top: 3rem;
+}
+main div .filaordenarpor {
+  display: flex;
+  justify-content: flex-end;
+}
+main div .filaordenarpor div .ordenarpor {
+  width: 18vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+@media screen and (max-width: 600px) {
+  main div .filaordenarpor div .ordenarpor {
+    width: 50vw;
+  }
+}
+main div .espaciadoarowproductos {
+  padding-bottom: 1rem;
+  margin-right: 0.1rem;
+}
+main div .espaciadoarowproductos div .contenedorfiltros {
+  background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
+  width: 18vw;
+  height: 105vh;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  main div .espaciadoarowproductos div .contenedorfiltros {
+    display: none;
+  }
+}
+main div .espaciadoarowproductos div .contenedorfiltros .acomodarcontenido {
+  padding: 1rem;
+}
+main div .espaciadoarowproductos div .productospagecard {
+  height: 105vh;
+}
+@media screen and (max-width: 600px) {
+  main div .espaciadoarowproductos div .productospagecard {
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
+main div .espaciadoarowproductos div .productospagecard div .botondecompra {
+  border-radius: 8px;
+  border-color: black;
+  background-color: #e2b68d;
+}
+main .vertodos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+main .overquienessomos {
+  overflow: hidden;
+}
+main .overquienessomos .productosdestacados {
+  margin-top: 3rem;
+}
+main div .contenedorparrafo {
+  width: 70vw;
+  height: auto;
+  text-align: justify;
+  margin: 0 auto;
+}
+main div .contenedorparrafo div .subrayadotitulo {
+  text-decoration: underline;
+  font-style: italic;
+}
+main div .contenedorparrafo div .parrafoquienessomos {
+  line-height: 2.5rem;
+  margin-top: 2rem;
+}
+
+main .overcontacto {
+  overflow: hidden;
+}
+main .productosdestacados {
+  margin-top: 3rem;
+}
+main .contenedorcontacto {
+  padding: 0;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  main .contenedorcontacto div .parrafoscontacto {
+    text-align: center;
+  }
+}
+main .contenedorcontacto div .formucontacto {
+  width: 20rem;
+}
+@media screen and (max-width: 600px) {
+  main .contenedorcontacto div .formucontacto {
+    margin: 0 auto;
+  }
+}
+main .contenedorcontacto div .formucontacto .botonformucontacto {
+  width: 8rem;
+  border-radius: 8px;
+  border-color: black;
+  background-color: #e2b68d;
+}
+
+main .overlocales {
+  overflow: hidden;
+}
+main .overlocales .productosdestacados {
+  margin-top: 3rem;
+}
+main .contenedorlocales {
+  width: 75vw;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  main .contenedorlocales {
+    display: flex;
+    justify-content: center;
+    width: auto;
+  }
+}
+
+main .overpreguntasfrecuentes {
+  overflow: hidden;
+}
+main .overpreguntasfrecuentes .productosdestacados {
+  margin-top: 3rem;
+}
+main div .tamanofilapreg {
+  width: 60rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+@media screen and (max-width: 600px) {
+  main div .tamanofilapreg {
+    width: auto;
+  }
+}
+main div div div div .botonpreg {
+  color: #9c6028;
+  background-color: beige;
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */

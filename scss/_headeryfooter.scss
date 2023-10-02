@@ -1,0 +1,89 @@
+header {
+  .buscarcreariniciar {
+    @include buscreainic;
+
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .esconderformumedia {
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+
+      form {
+        .botonbuscar {
+          @include botonsearch;
+        }
+      }
+    }
+
+    div {
+      ul {
+        display: flex;
+        flex-direction: row;
+
+        .creariniciar {
+          display: inline-block;
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+nav {
+  overflow: hidden;
+  div {
+    .marca {
+      @include logomarca;
+    }
+
+    .centrarmenu {
+      @include posicionarmenu;
+
+      .espaciadolinks {
+        gap: 2rem;
+        font-size: larger;
+        @media screen and (max-width: 600px) {
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  padding: 2rem;
+
+  div {
+    div {
+      .formulariofooter {
+        @include formupie;
+
+        form {
+          .botonbuscar {
+            @include botonsearch;
+          }
+        }
+      }
+    }
+  }
+
+  nav {
+    div {
+      .centrarmenu {
+        padding-top: 1rem;
+        @include posicionarmenu;
+
+        .espaciadolinks {
+          @extend .espaciadolinks;
+          @media screen and (max-width: 600px) {
+            gap: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

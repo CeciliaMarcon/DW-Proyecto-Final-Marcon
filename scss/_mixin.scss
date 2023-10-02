@@ -1,0 +1,37 @@
+@mixin botonparacomprar() {
+    border-radius: 8px;
+    border-color: black;
+    background-color: #e2b68d;
+}
+
+@mixin buscreainic() {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: -1.5rem;
+    padding: 1rem;
+}
+
+@mixin botonsearch() {
+    background-color: #e2b68d;
+    color: black;
+    border-color: #9c6028;
+}
+
+@mixin logomarca() {
+    border: solid;
+    color: black;
+    padding: 5px;
+}
+
+@mixin posicionarmenu() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin formupie(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
